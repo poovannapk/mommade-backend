@@ -1,0 +1,46 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.featuredItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 5px 6px 6px -2px rgba(54,53,53,0.75);
+-webkit-box-shadow: 5px 6px 6px -2px rgba(54,53,53,0.75);
+-moz-box-shadow: 5px 6px 6px -2px rgba(54,53,53,0.75);
+}
+.featureTitle{
+    font-size: 20px;
+}
+
+
+.featuredMoneyContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.featureMoney{
+    font-size: 25px;
+    font-weight: 400;
+}
+.featureMoneyRate{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: gray;
+
+}
+.arrowup{
+    color: green;
+    font-size: 35px !important;
+}
+.arrowdown{
+    color: red;
+    font-size: 35px !important;
+}

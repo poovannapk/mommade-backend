@@ -1,0 +1,17 @@
+.App{
+  /* width: 98.7vw;
+  height: 100; */
+  background-color: #eeeeee;
+  /* display: flex; */
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.sidebarContainer{
+  display: flex;
+  
+}
